@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flowmetric Labs — AI-powered workflow analytics for B2B operations teams</title>
+    <meta name="description" content="Flowmetric Labs helps mid-size B2B companies visualize, monitor, and optimize internal operational workflows with AI-driven bottleneck detection and predictive alerts." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="nav" id="nav">
+      <div class="container nav__inner">
+        <a href="#home" class="brand" aria-label="Flowmetric Labs home">
+          <span class="brand__mark" aria-hidden="true">
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="28" height="28" rx="7" fill="#1e3a8a"/>
+              <path d="M6 18 L10 12 L14 15 L18 8 L22 11" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <circle cx="22" cy="11" r="2.2" fill="#38bdf8"/>
+            </svg>
+          </span>
+          <span class="brand__name">Flowmetric Labs</span>
+        </a>
+        <nav class="nav__links" id="navLinks" aria-label="Primary">
+          <a href="#features">Features</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+          <a href="#contact" class="btn btn--primary btn--sm nav__cta">Book a Demo</a>
+        </nav>
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Hero -->
+      <section class="hero" id="home">
+        <div class="container hero__inner">
+          <div class="hero__copy">
+            <span class="eyebrow">AI-powered workflow analytics</span>
+            <h1 class="hero__title">See every bottleneck before it costs you.</h1>
+            <p class="hero__sub">Flowmetric Labs gives B2B operations teams a live, intelligent view of sales ops, customer onboarding, and support routing — surfacing delays and predicting where work will stall next.</p>
+            <div class="hero__actions">
+              <a href="#contact" class="btn btn--primary">Get Started</a>
+              <a href="#contact" class="btn btn--ghost">Book a Demo</a>
+            </div>
+            <ul class="hero__proof">
+              <li><strong>40%</strong> faster onboarding</li>
+              <li><strong>2.3x</strong> quicker ticket routing</li>
+              <li><strong>18hrs</strong> saved per ops manager / week</li>
+            </ul>
+          </div>
+          <div class="hero__visual" aria-hidden="true">
+            <div class="panel">
+              <div class="panel__head">
+                <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+                <span class="panel__title">flowmetric — live</span>
+              </div>
+              <div class="panel__body">
+                <div class="metric">
+                  <span class="metric__label">Active workflows</span>
+                  <span class="metric__value">128</span>
+                </div>
+                <div class="flowchart">
+                  <div class="node">New deal</div>
+                  <div class="arrow"></div>
+                  <div class="node">Qualification</div>
+                  <div class="arrow"></div>
+                  <div class="node node--warn">Onboarding <small>bottleneck</small></div>
+                  <div class="arrow"></div>
+                  <div class="node">Activated</div>
+                </div>
+                <div class="alert">
+                  <span class="alert__badge">Predictive alert</span>
+                  <p>Onboarding queue likely to exceed SLA in ~6 hours based on current intake rate.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Logo strip -->
+      <section class="logos" aria-label="Trusted by">
+        <div class="container">
+          <p class="logos__label">Trusted by operations teams at</p>
+          <div class="logos__row">
+            <span>Northwind</span><span>Cardinal</span><span>Helio</span><span>Meridian</span><span>Quanta</span><span>Beacon</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Features -->
+      <section class="section" id="features">
+        <div class="container">
+          <div class="section__head">
+            <span class="eyebrow">Features</span>
+            <h2>Everything operations teams need to keep work flowing.</h2>
+            <p>One platform to visualize, monitor, and optimize the workflows that run your revenue and retention.</p>
+          </div>
+          <div class="grid grid--4">
+            <article class="card">
+              <div class="card__icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 14l4-4 3 3 5-6"/></svg>
+              </div>
+              <h3>Bottleneck detection</h3>
+              <p>AI continuously analyzes throughput across every stage and flags the exact step where work is piling up — with the reason why.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v3M12 19v3M2 12h3M19 12h3"/><circle cx="12" cy="12" r="5"/><path d="M12 8v4l2 2"/></svg>
+              </div>
+              <h3>Predictive alerts</h3>
+              <p>Get warned hours before an SLA breach or queue overflow. Alerts route to the right owner in Slack or email with suggested next actions.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+              </div>
+              <h3>Workflow visualization</h3>
+              <p>Drop in your existing process and get an interactive live map of every stage, owner, and handoff — no consultants or diagrams required.</p>
+            </article>
+            <article class="card">
+              <div class="card__icon">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1"/><path d="M14 11a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1"/></svg>
+              </div>
+              <h3>Integrations</h3>
+              <p>Connect Salesforce, HubSpot, Zendesk, Jira, and Slack in minutes. Flowmetric reads the signals you already generate — no new data entry.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- How it works -->
+      <section class="section section--alt" id="how">
+        <div class="container">
+          <div class="section__head">
+            <span class="eyebrow">How it works</span>
+            <h2>Live in an afternoon. Not a quarter-long implementation.</h2>
+          </div>
+          <div class="steps">
+            <div class="step">
+              <div class="step__num">1</div>
+              <h3>Connect your tools</h3>
+              <p>Authenticate your CRM, helpdesk, and project tracker. Flowmetric maps your workflows automatically — no process interviews required.</p>
+            </div>
+            <div class="step">
+              <div class="step__num">2</div>
+              <h3>AI builds your flow map</h3>
+              <p>Within minutes you get a live visualization of every stage, owner, and handoff, with baseline throughput and bottleneck scores.</p>
+            </div>
+            <div class="step">
+              <div class="step__num">3</div>
+              <h3>Act on predictive alerts</h3>
+              <p>Get warned before work stalls, assign owners in one click, and watch cycle times drop as Flowmetric learns your team's patterns.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pricing -->
+      <section class="section" id="pricing">
+        <div class="container">
+          <div class="section__head">
+            <span class="eyebrow">Pricing</span>
+            <h2>Per-seat pricing that scales with your ops team.</h2>
+            <p>14-day free trial. No credit card required. Cancel anytime.</p>
+          </div>
+          <div class="grid grid--3">
+            <article class="plan">
+              <h3 class="plan__name">Starter</h3>
+              <p class="plan__desc">For small ops teams getting started.</p>
+              <div class="plan__price"><span class="plan__currency">$</span>19<span class="plan__unit">/seat/mo</span></div>
+              <ul class="plan__features">
+                <li>Up to 5 workflows</li>
+                <li>Bottleneck detection</li>
+                <li>3 integrations</li>
+                <li>Email alerts</li>
+                <li>7-day history</li>
+              </ul>
+              <a href="#contact" class="btn btn--ghost btn--block">Start free trial</a>
+            </article>
+            <article class="plan plan--featured">
+              <span class="plan__badge">Most popular</span>
+              <h3 class="plan__name">Growth</h3>
+              <p class="plan__desc">For growing teams that need predictability.</p>
+              <div class="plan__price"><span class="plan__currency">$</span>39<span class="plan__unit">/seat/mo</span></div>
+              <ul class="plan__features">
+                <li>Unlimited workflows</li>
+                <li>Predictive alerts</li>
+                <li>10 integrations</li>
+                <li>Slack + email alerts</li>
+                <li>90-day history</li>
+                <li>Weekly AI optimization review</li>
+              </ul>
+              <a href="#contact" class="btn btn--primary btn--block">Start free trial</a>
+            </article>
+            <article class="plan">
+              <h3 class="plan__name">Scale</h3>
+              <p class="plan__desc">For multi-team operations at scale.</p>
+              <div class="plan__price"><span class="plan__currency">$</span>79<span class="plan__unit">/seat/mo</span></div>
+              <ul class="plan__features">
+                <li>Everything in Growth</li>
+                <li>Unlimited integrations</li>
+                <li>Custom AI alert thresholds</li>
+                <li>SSO + audit logs</li>
+                <li>Unlimited history</li>
+                <li>Dedicated success manager</li>
+              </ul>
+              <a href="#contact" class="btn btn--ghost btn--block">Contact sales</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="section section--alt" id="about">
+        <div class="container about">
+          <div class="about__copy">
+            <span class="eyebrow">About Flowmetric Labs</span>
+            <h2>Built by operations people who got tired of guessing.</h2>
+            <p>Flowmetric Labs was founded in 2022 by a team of operations leaders and applied ML engineers who spent years rebuilding the same dashboards in spreadsheets, BI tools, and ticketing systems — and still missing the problems that mattered.</p>
+            <p>We believed operations teams deserved the same quality of observability that engineering teams have had for a decade: live maps, clear signals, and alerts that tell you what to do before things break. So we built it.</p>
+            <p>Today, Flowmetric Labs helps mid-market B2B companies across SaaS and services run tighter onboarding, faster support, and more predictable revenue — without adding headcount.</p>
+          </div>
+          <div class="about__team">
+            <div class="stat"><strong>2022</strong><span>Founded</span></div>
+            <div class="stat"><strong>54</strong><span>Employees</span></div>
+            <div class="stat"><strong>$12M</strong><span>Series A</span></div>
+            <div class="stat"><strong>SOC 2</strong><span>Type II</span></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <div class="container contact">
+          <div class="contact__copy">
+            <span class="eyebrow">Get started</span>
+            <h2>See Flowmetric Labs on your workflows.</h2>
+            <p>Book a 30-minute demo and we'll connect your tools live on the call. You'll leave with a map of your real bottlenecks — whether or not you become a customer.</p>
+            <ul class="contact__list">
+              <li>Live walkthrough on your data</li>
+              <li>Setup in under an hour</li>
+              <li>No long-term contract</li>
+            </ul>
+          </div>
+          <form class="form" id="contactForm" novalidate>
+            <div class="form__row">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Jordan Avery" required />
+            </div>
+            <div class="form__row">
+              <label for="email">Work email</label>
+              <input type="email" id="email" name="email" placeholder="jordan@company.com" required />
+            </div>
+            <div class="form__row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your ops workflows and what you'd like to improve." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--block">Book a Demo</button>
+            <p class="form__note" id="formNote" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <a href="#home" class="brand">
+            <span class="brand__mark" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="28" height="28" rx="7" fill="#1e3a8a"/>
+                <path d="M6 18 L10 12 L14 15 L18 8 L22 11" stroke="#38bdf8" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                <circle cx="22" cy="11" r="2.2" fill="#38bdf8"/>
+              </svg>
+            </span>
+            <span class="brand__name">Flowmetric Labs</span>
+          </a>
+          <p class="footer__tag">AI-powered workflow analytics for B2B operations teams.</p>
+        </div>
+        <div class="footer__cols">
+          <div class="footer__col">
+            <h4>Product</h4>
+            <a href="#features">Features</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#how">How it works</a>
+          </div>
+          <div class="footer__col">
+            <h4>Company</h4>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+          </div>
+          <div class="footer__col">
+            <h4>Legal</h4>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Security</a>
+          </div>
+        </div>
+      </div>
+      <div class="container footer__bottom">
+        <p>&copy; <span id="year"></span> Flowmetric Labs, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
